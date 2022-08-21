@@ -1,8 +1,3 @@
-import ReactDOM from 'react-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelopeOpen } from '@fortawesome/free-regular-svg-icons';
-
 const contact = [
     {
         "link": "mailto:q2mak@uwaterloo.ca",

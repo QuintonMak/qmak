@@ -11,9 +11,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { library } from '@fortawesome/fontawesome-svg-core'
-  import { fab, faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
-  import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab, faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 library.add(fab, faCoffee, faEnvelope, faLinkedin, faGithub, faYoutube)
 function App() {
