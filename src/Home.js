@@ -23,7 +23,7 @@ function Home() {
                     about math and computer science in the coming years. 
                     Other than that, some of my hobbies include chess and badminton!
                 </div>
-                <img id='pfp' src='Images/profilePicture.png' alt="profile"/>
+                <img id='pfp' src='./Images/profilePicture.png' alt="profile"/>
             </article>
 
         </div>
