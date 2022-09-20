@@ -23,21 +23,21 @@ function App() {
         <nav className="menu">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="React-Website/">Home</Link>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <Link to="React-Website/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/experience">Experience</Link>
+              <Link to="React-Website/experience">Experience</Link>
             </li>
           </ul>
         </nav>
 
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/experience" element={<Experience/>} />
-          <Route path="/projects" element={<Projects/>} />
+          <Route path="React-Website/" element={<Home/>} />
+          <Route path="React-Website/experience" element={<Experience/>} />
+          <Route path="React-Website/projects" element={<Projects/>} />
         </Routes>
       </Router>
     </div>

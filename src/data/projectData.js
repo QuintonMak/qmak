@@ -48,7 +48,15 @@ const projects = [
             sourceLink: "https://github.com/AaryanRawat/HawkHacks2022Project",
         }
     },
-
+    {
+        title: "http-atrium-cdvi",
+        desc: `Open Source contributions to NPM package which interacts with Atrium CDVI smart locks, using javascript`,
+        links: {
+            projectLink: "https://www.npmjs.com/package/http-atrium-cdvi",
+            imageLink: "Images/npm.png",
+            sourceLink: "https://github.com/AaryanRawat/HawkHacks2022Project",
+        }
+    }
 ]
 
-export default projects;
+export default projects.reverse();

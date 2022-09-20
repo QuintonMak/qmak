@@ -1,6 +1,6 @@
 const experience = [
     {
-        date: "August 2022",
+        date: "August 2022 - September 2022",
         location: "North York Chinese Baptist Church",
         position: "Developer",
         bullets: [
