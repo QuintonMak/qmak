@@ -17,8 +17,8 @@ function Projects () {
         <h1 className="title">Projects</h1>
         <ul className='projectList'>
             {projectData.map(e => 
-                <li>
-                    <Project {...e} active={activeProject === e.title} key={e.title} setActiveProject={setActiveProjectToggle}/>
+                <li key={e.title}>
+                    <Project {...e} active={activeProject === e.title} setActiveProject={setActiveProjectToggle}/>
                 </li>
             )}
         </ul>

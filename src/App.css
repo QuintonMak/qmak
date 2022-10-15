@@ -359,15 +359,8 @@ a {
     font-size: 200%;
     border-radius: 10px;
   }
-  /*Resize the menu*/
-  .menu a {
-    font-size: 130%;
-    float: left;
-    padding: 5px 16px;
-  }
-  .menu {
-    height: 41px;
-  }
+
+  
 
   /* Rearrange experience section */
   .expList .expContainer {
@@ -377,16 +370,24 @@ a {
   }
 }
 
-@media screen and (max-width: 410px) {
-  /*Display nemu vertically*/
+@media screen and (max-width: 500px) {
+  /*Display menu vertically*/
   .menu {
     height: auto;
-    position: fixed;
+    display: flex;
   }
-  .menu a {
-    text-align: center;
+  .menu li {
     float: none;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
   }
+
+  .menu ul {
+    width: 100%;
+  }
+
+
   .projectButtons {
     flex-direction: column;
   }

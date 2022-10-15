@@ -6,7 +6,7 @@ function experienceEntry ({date, location, position, bullets}) {
                 <div className="expTitle">{position}</div>
                 <div className="expSubtitle">{location}</div>
                 <ul className="expPointList">{bullets.map(b => 
-                        <li>{b}</li>
+                        <li key={b}>{b}</li>
                 )}</ul>
             </div>
         </div>
