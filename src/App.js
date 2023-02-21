@@ -32,7 +32,7 @@ function App() {
               <Link to="React-Website/experience">Experience</Link>
             </li>
             <li>
-              <a href="Media/Resume_CS_2022_2023.pdf" target='blank'>Resume</a>
+              <a href="Media/Resume_CS_2022_2023_Data-Linux.pdf" target='blank'>Resume</a>
             </li>
           </ul>
         </nav>

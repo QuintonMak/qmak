@@ -56,6 +56,15 @@ const projects = [
             imageLink: "Images/npm.jpg",
             sourceLink: "https://github.com/AaryanRawat/HawkHacks2022Project",
         }
+    },
+    {
+        title: "Scotiabank Data Science Discovery Days",
+        desc: `Fraud detection model using Python and Tensorflow. Achieved 95% accuracy and 96% F1 Score`,
+        links: {
+            projectLink: "https://github.com/QuintonMak/Winter-2023-Discovery-Days",
+            imageLink: "Images/scotia.png",
+            sourceLink: "https://github.com/QuintonMak/Winter-2023-Discovery-Days",
+        }
     }
 ]
 
