@@ -1,5 +1,21 @@
 const experience = [
     {
+        date: "May 2023 - August 2023",
+        location: "Mackenzie Investments",
+        position: "Software Developer Intern",
+        bullets: [
+            "Used Python and SQL to maintain the database."
+        ]
+    },
+    {
+        date: "January 2023 - April 2023",
+        location: "University of Waterloo",
+        position: "Undergraduate Learning Assistant",
+        bullets: [
+            "Developed course materials for linear algebra courses"
+        ]
+    },
+    {
         date: "August 2022 - September 2022",
         location: "North York Chinese Baptist Church",
         position: "Developer",
