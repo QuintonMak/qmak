@@ -68,7 +68,7 @@ body {
   text-align: left;
   font-weight: lighter;
   float: left;
-  padding: 5px 16px;
+  padding: 5px 0px;
   display: block;
   font-size: 150%;
 }
@@ -82,9 +82,10 @@ a {
 }
 .menu a {
   color: white;
+  padding: 8px 20px;
 }
 /* Menu on mouse-over */
-.menu li:hover {
+.menu a:hover {
   background-color: rgb(214, 214, 214);
   color: rgba(2, 80, 168, 0.829);
 }
@@ -187,17 +188,19 @@ a {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   /*Display menu vertically*/
   .menu {
     height: auto;
-    display: flex;
+    
   }
   .menu li {
     float: none;
+    display: flex;
     flex-direction: column;
     width: auto;
     text-align: center;
+    padding: 0px;
   }
 
   .menu ul {
