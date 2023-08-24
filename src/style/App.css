@@ -1,0 +1,212 @@
+html {
+  background-color: rgb(252, 244, 230);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.button {
+  margin: 10px;
+}
+
+body {
+  /*Change the font weight in general*/
+  font-weight: normal;
+}
+
+/* PAGE NAV MENU */
+.menu {
+  width: 100%;
+  height: 46px;
+  position: static;
+  top: 0;
+  background-color: rgba(6, 68, 139, 0.829);
+  overflow: auto;
+  z-index: 2;
+}
+
+/*Display as a block in order to make the clickable area a rectangle*/
+.menu li {
+  text-align: left;
+  font-weight: lighter;
+  float: left;
+  padding: 5px 16px;
+  display: block;
+  font-size: 150%;
+}
+
+.menu ul {
+  margin: 0;
+}
+/*General Links*/
+a {
+  color: black;
+}
+.menu a {
+  color: white;
+}
+/* Menu on mouse-over */
+.menu li:hover {
+  background-color: rgb(214, 214, 214);
+  color: rgba(2, 80, 168, 0.829);
+}
+/*Buttons*/
+.button {
+  padding: 8px;
+  margin: 10px 10px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 110%;
+}
+.button:hover {
+  background-color: rgba(146, 145, 145, 0.432);
+}
+
+/*Adjust the main content of the page*/
+.main {
+  margin-top: 46px;
+  background-color: rgb(58, 241, 226);
+}
+
+/* Page title "Quinton Mak" */
+.title {
+  margin: auto;
+  padding: 20px 5px 5px;
+  font-size: 400%;
+  font-weight: 500;
+  text-align: center;
+  color: #363636;
+  line-height: 1.125;
+}
+
+/*CONTACT*/
+#contact {
+  clear: both;
+}
+.contactList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+}
+/*Handle the clickable icons*/
+.fa {
+  margin: 0 20px;
+  transform: scale(2);
+}
+.fa:hover {
+  transform: scale(2.5);
+}
+
+/*Animation*/
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+#about, .expList, .projectList {
+  animation: fadeIn 1s;
+}
+
+/*Responsive Design*/
+
+@media screen and (max-width: 850px) {
+  /*stack image and content - not enough horizontal space */
+  /* Stack project thumbnail with content */
+  .projectList li .projectContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectButtons {
+    align-self: center;
+  }
+  img {
+    zoom: 0.7;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    font-size: 100%;
+  }
+  /*Resize the project list*/
+  .projectList {
+    padding: 5px 5px;
+  }
+  .projectContent {
+    font-size: 100%;
+    width: 95%;
+  }
+  .projectTitle {
+    font-size: 200%;
+    border-radius: 10px;
+  }
+
+  /* Rearrange experience section */
+  .expList .expContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /*Display menu vertically*/
+  .menu {
+    height: auto;
+    display: flex;
+  }
+  .menu li {
+    float: none;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+  }
+
+  .menu ul {
+    width: 100%;
+  }
+
+
+  .projectButtons {
+    flex-direction: column;
+  }
+}
+

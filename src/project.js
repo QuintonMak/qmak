@@ -21,11 +21,14 @@ function Project({title, desc, links, active, setActiveProject}) {
         </div>
     </div> : <div></div>;
 
-
+    const colorStyle = active ? 'rgb(93, 115, 148)' : ''
+    const textStyle = active ? 'white' : ''
 
     return (
         <div>
-            <div className="projectTitle" onClick={() => {
+            <div className="projectTitle"
+                style={{backgroundColor: colorStyle, color: textStyle}}
+                onClick={() => {
                 setActiveProject(title);
                 }}>{title}</div>
             {content}

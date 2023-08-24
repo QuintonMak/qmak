@@ -1,0 +1,39 @@
+/*ABOUT*/
+/*Use flexbox for the 'about' section*/
+#about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 20px;
+    /*background-image: linear-gradient(rgb(58, 241, 226), rgb(193, 234, 235));*/
+}
+
+.description {
+    text-align: left;
+    font-size: 165%;
+    margin-left: 25px;
+    padding: 15px;
+}
+
+/*Profile Picture*/
+#pfp {
+    margin: 30px 20px;
+    zoom: 1;
+    border-radius: 10%;
+}
+
+@keyframes slideDown {
+    0% { transform: translateY(-100px); }
+    100% { transform: translate(0px); }
+}
+.animateTitle, .title {
+    animation: slideDown ease-out 0.25s forwards;
+}
+
+@media screen and (max-width: 800px) {
+    #about {
+        flex-direction: column;
+    }
+}

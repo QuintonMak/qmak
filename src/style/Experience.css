@@ -1,0 +1,41 @@
+/*EXPERIENCE*/
+#experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .expList .expContainer {
+    display: grid;
+    grid-template-columns: 25% 37.5% 37.5%;
+    margin: 20px;
+  }
+  
+  .expList .expDate {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 200%;
+    padding: 10px;
+  }
+  
+  .expContent {
+    grid-column: 2/4;
+    padding: 10px 20px;
+    font-size: 115%;
+  }
+  
+  .expTitle,
+  .expSubtitle {
+    font-style: italic;
+    font-size: 135%;
+  }
+  
+  .expTitle {
+    font-weight: 500;
+  }
+  
+  .expPointList {
+    list-style: disc;
+    padding: 20px;
+  }

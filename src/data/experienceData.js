@@ -4,7 +4,9 @@ const experience = [
         location: "Mackenzie Investments",
         position: "Software Developer Intern",
         bullets: [
-            "Used Python and SQL to maintain the database."
+            "Used Python and SQL to maintain the database pipelines.",
+            `Automated systems to reduce error messages sent to the support team. 
+            This included processing missing or duplicated data, and identifying holiday dates in the code.`
         ]
     },
     {
