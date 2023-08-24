@@ -21,13 +21,14 @@ import { faCoffee, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 library.add(fab, faCoffee, faEnvelope, faLinkedin, faGithub, faYoutube)
 function App() {
+  // Note the About section is actually Home in the code.
   return (
     <div>
       <Router>
         <nav className="menu">
           <ul>
             <li>
-              <Link to="qmak/">Home</Link>
+              <Link to="qmak/">About</Link> 
             </li>
             <li>
               <Link to="qmak/projects">Projects</Link>

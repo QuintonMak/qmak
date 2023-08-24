@@ -26,7 +26,8 @@ function Home() {
                     Hi! I'm Quinton, a Data Science student at 
                     the University of Waterloo. I enjoy learning about math and computer science. 
                     Other than school, I've learned about computer science and programming through 
-                    hackathons and internships.
+                    hackathons and internships. 
+                    I also have experience in tutoring and creating course content for mathematics.
                     Currently, I am exploring the field of machine learning and look forward to 
                     learn more. Other than that, some of my hobbies include chess and badminton!
                 </div>
