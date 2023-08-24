@@ -27,13 +27,13 @@ function App() {
         <nav className="menu">
           <ul>
             <li>
-              <Link to="React-Website/">Home</Link>
+              <Link to="qmak/">Home</Link>
             </li>
             <li>
-              <Link to="React-Website/projects">Projects</Link>
+              <Link to="qmak/projects">Projects</Link>
             </li>
             <li>
-              <Link to="React-Website/experience">Experience</Link>
+              <Link to="qmak/experience">Experience</Link>
             </li>
             <li>
               <a href="Media/Resume_Spring_2023.pdf" target='blank'>Resume</a>
@@ -42,9 +42,9 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="React-Website/" element={<Home/>} />
-          <Route path="React-Website/experience" element={<Experience/>} />
-          <Route path="React-Website/projects" element={<Projects/>} />
+          <Route path="qmak/" element={<Home/>} />
+          <Route path="qmak/experience" element={<Experience/>} />
+          <Route path="qmak/projects" element={<Projects/>} />
         </Routes>
       </Router>
     </div>
